@@ -8,8 +8,6 @@ import Room from '@mui/icons-material/Room';
 import StarIcon from '@mui/icons-material/Star';
 import { getPin, setPin } from './service/api';
 
-
-
 function App() {
   const [newPlace, setNewPlace] = useState(null);
   const [title, setTitle] = useState(null);
